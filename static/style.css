@@ -1,4 +1,27 @@
+#navbarSupportedContent {
+    gap: 8px;
+}
+
 .board-col {
+    display: flex;
+    flex-flow: column nowrap;
     margin: 0.3em;
     border-radius: 3px;
+    min-height: 600px;
+}
+
+.board-title {
+    margin: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-search {
+    display: flex;
+    gap: 4px;
+    margin: 0 1em;
+}
+
+.add-item-btn {
+    margin-top: auto;
 }
