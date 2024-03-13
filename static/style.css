@@ -1,4 +1,73 @@
+#navbarSupportedContent {
+    gap: 8px;
+}
+
+.main-content {
+    padding: 1em;
+    text-align: center;
+}
+
 .board-col {
+    display: flex;
+    flex-flow: column nowrap;
     margin: 0.3em;
     border-radius: 3px;
+    min-height: 400px;
+}
+
+.board-title {
+    margin: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-search {
+    display: flex;
+    gap: 4px;
+    margin: 0 1em;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 8px;
+
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin: auto;
+}
+
+.add-item-btn {
+    margin-top: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-flow: column nowrap;
+
+    gap: 10px;
+
+    max-width: 500px;
+
+    margin: 0px auto;
+    margin-top: 3em;
+}
+
+.login-form .remember-me-group {
+    margin-right: auto;
+}
+
+.add-item-form {
+    display: none;
+
+    animation-name: show-form;
+    animation-duration: 2s;
+}
+
+.add-item-form-active {
+    display: block;
 }
